@@ -1,5 +1,5 @@
 # rdba
-printf "Check Out My Channel While Waiting- https://youtu.be/VeO22kIvZOQ" >&2
+printf "Check Out My Channel While Waiting- https://www.youtube.com/channel/UCc26ZgG4vv6q9MJT5qsCccg" >&2
 {
 sudo useradd -m AYHAM
 sudo adduser AYHAM sudo
