@@ -18,6 +18,7 @@ wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 sudo dpkg --install google-chrome-stable_current_amd64.deb
 sudo apt install --assume-yes --fix-broken
 sudo apt install nautilus nano -y 
+sudo apt-get install unrar
 sudo apt -y install obs-studio
 sudo apt install build-essential debhelper ruby \
   libbz2-dev liblzo2-dev zlib1g-dev libmagic-dev \
