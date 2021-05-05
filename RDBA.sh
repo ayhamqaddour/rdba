@@ -1,9 +1,9 @@
 # rdba
 printf "Check Out My Channel While Waiting- https://www.youtube.com/channel/UCc26ZgG4vv6q9MJT5qsCccg" >&2
 {
-sudo useradd -m AYHAM
-sudo adduser AYHAM sudo
-echo 'AYHAM:3012' | sudo chpasswd
+sudo useradd -m AYHAM1
+sudo adduser AYHAM1 sudo
+echo 'AYHAM1:3012' | sudo chpasswd
 sed -i 's/\/bin\/sh/\/bin\/bash/g' /etc/passwd
 sudo apt-get update
 wget https://dl.google.com/linux/direct/chrome-remote-desktop_current_amd64.deb
@@ -33,12 +33,12 @@ tar xJf mkvtoolnix-53.0.0.tar.xz
 cd mkvtoolnix-53.0.0
 cp -R packaging/debian debian
 dpkg-buildpackage -b -uc -us
-sudo adduser AYHAM chrome-remote-desktop
+sudo adduser AYHAM1 chrome-remote-desktop
 } &> /dev/null &&
 printf "\nSetup Completed " >&2 ||
 printf "\nError Occured " >&2
 printf '\nCheck https://remotedesktop.google.com/headless  Copy Command Of Debian Linux And Paste Down\n'
 read -p "Paste Here: " CRP
-su - AYHAM -c """$CRP"""
+su - AYHAM1 -c """$CRP"""
 printf 'Check https://remotedesktop.google.com/access/ \n'
 printf 'Your SUDO Pasword Is 3012 \n'
